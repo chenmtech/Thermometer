@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (btn_feature_2.getText().toString().equals("功能2")) {
-                    btn_feature_2.setText("无功能2");
+                    btn_feature_1.setText("无功能2");
                 } else {
                     btn_feature_2.setText("功能2");
                 }
